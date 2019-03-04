@@ -7,7 +7,7 @@ Template Name: Getting Started
 
 get_header();
 ?>
-<div id="getting-started container">
+<div id="getting-started container-fluid" style="width: 100%;">
 	<div class="row top-bar">
 		<div class="col-lg-12">
 			<p>FOR PATIENTS</p>

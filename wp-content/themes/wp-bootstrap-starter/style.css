@@ -44,6 +44,10 @@ body {
   font-family: 'Arial', sans-serif;
   color: #57555a;
 }
+.container-fluid,.modal-header,.modal-body,modal-footer, input{
+  width: 100% !important;
+}
+
 
 article,
 aside,

@@ -22,10 +22,10 @@
 
 <body <?php body_class(); ?>>
     <div id="page" class="site">
-       <a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'wp-bootstrap-starter' ); ?></a>
-       <?php if(!is_page_template( 'blank-page.php' ) && !is_page_template( 'blank-page-with-container.php' )): ?>
-       <header id="masthead" class="site-header navbar-static-top <?php echo wp_bootstrap_starter_bg_class(); ?>" role="banner">
-        <div class="container">
+     <a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'wp-bootstrap-starter' ); ?></a>
+     <?php if(!is_page_template( 'blank-page.php' ) && !is_page_template( 'blank-page-with-container.php' )): ?>
+     <header id="masthead" class="site-header navbar-static-top <?php echo wp_bootstrap_starter_bg_class(); ?>" role="banner">
+        <div class="container-fluid">
             
             <nav class="navbar navbar-expand-xl p-0">
                 <div class="navbar-brand">
@@ -86,5 +86,5 @@
     <?php endif; ?>
     <div id="content" class="site-content">
       <div class="container">
-         <div class="row">
-            <?php endif; ?>
+       <div class="row">
+        <?php endif; ?>

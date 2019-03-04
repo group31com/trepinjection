@@ -7,7 +7,7 @@ Template Name: HCP About Trep
 
 get_header();
 ?>
-<div id="trep-injection">
+<div id="trep-injection container-fluid" style="width: 100%;">
 	<div class="row top-bar">
 		<div class="col-lg-12">
 			<p>FOR HEALTHCARE PROFESSIONALS</p>
